@@ -119,7 +119,7 @@
   mean_activity2_weekday <- tapply(activity2_weekday$steps, activity2_weekday$interval, mean)
   mean_activity2_weekend <- tapply(activity2_weekend$steps, activity2_weekend$interval, mean)
 
-## ----dataframe is prepared and the plot is. plotted !
+## ----Dataframe is prepared and the plot is produced
 
   echo = TRUE
   library(lattice)
